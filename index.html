@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">   <!-- css file link -->
+    <title>User Card List</title>        <!-- title of the page -->
+</head>
+<body>
+    <nav class="navbar">      <!-- navigation bar -->
+        <div class="container">
+            <a href="https://letsgrowmore.in/" class="logo">    <!-- added LetsGrowMore website and logo since it was a task given by them -->
+                <img src="https://letsgrowmore.in/wp-content/uploads/2021/05/Artboard-1-1-removebg-preview-e1645900071758.jpg" alt="Logo" class="rounded-lg logo-img">
+            </a>
+            <button type="button" class="btn-get-users" onclick="getData()">Get Users</button>   <!-- click on this button so we willl get user data-->
+        </div>
+    </nav>
+    <section class="user-section" id="user-section">
+        <div class="container">
+            <h2 class="section-heading">User Data</h2>
+            <div class="user-grid" id="user-grid">
+                <!-- User cards will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional content below User Data section -->
+    <section class="additional-section">
+        <div class="container">
+            <div class="mt-6 mx-auto text-center h-56 flex justify-center items-center" id="h4-des">
+                <h4 class="text-2xl font-bold tracking-tight sm:text-5xl text-cusBG2 opacity-50 text-center">
+                    Click "Get Users" to get user data             <!--msg will be displayed on screen -->
+                </h4>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">       <!--to display social media links-->
+        <div class="container">
+            <div class="social-media">
+                <a class="link" href="https://www.instagram.com/p_you_shsh/" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="images/insta.jpg" alt="Instagram" /></a>
+                <a class="link" href="https://www.linkedin.com/in/piyush-worlikar-a59965274/" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="images/linkedin.png" alt="LinkedIn"></a>
+                <a class="link" href="mailto:piyushw2903@gmail.com" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="images/gmail.png" alt="Gmail" /></a>
+                <a class="link" href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="images/github.png" alt="GitHub" /></a>
+            </div>
+            <p class="footer-desc">This project is done by <strong>Piyush Worlikar</strong> as a Beginner's Task 2 at LetsGrowMore</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>     <!--link to javscript file -->
+</body>
+</html>
